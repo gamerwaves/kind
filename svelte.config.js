@@ -4,10 +4,16 @@ import adapter from '@sveltejs/adapter-static';
 const config = {
 	kit: {
 		adapter: adapter({
+			// Use a fallback for static hosts that don't support SPA routing
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+			// Use an empty base path in development and a specified base path in production
+			base: process.env.NODE_ENV === 'development' ? '' : process.env.BASE_PATH || '/kind'
+		},
+		prerender: {
+			// Suppress errors for unreachable routes during prerendering
+			handleHttpError: 'warn'
 		}
 	}
 };
