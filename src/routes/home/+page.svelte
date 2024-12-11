@@ -21,7 +21,7 @@
 	<P class="mb-6 text-center text-lg sm:px-16 lg:text-xl xl:px-48 dark:text-gray-400"
 		>Making the World Better, One Act of Kindness at a Time</P
 	>
-	<Button href="/volunteer">
+	<Button href="/kind/volunteer">
 		Get Started
 		<ArrowRightOutline class="ms-2 h-6 w-6" />
 	</Button>
