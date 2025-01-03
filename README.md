@@ -11,7 +11,7 @@ Requirements
 
 Install/Run
 -
-    git clone https://github.com/Dwaitp/kind.git
+    git clone https://github.com/gamer_waves/kind.git
 
     cd kind
     
