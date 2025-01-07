@@ -26,7 +26,7 @@ kind. integrates geolocation, external APIs, and dynamic UI elements to offer a 
 
 Install/Run:
 -
-    git clone https://github.com/gamer_waves/kind.git
+    git clone https://github.com/gamerwaves/kind.git
 
     cd kind
     
